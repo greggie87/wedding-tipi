@@ -4,12 +4,12 @@
 * {
     padding: 0;
     margin: 0;
-    border: none
+    border: none;
     box-sizing: border-box;
 }
 
 body {
-    font-family: Lato; sans-serif;
+    font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a
 }
@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-    font-family: Roboto Slab, sans-serif;
+    font-family: "Roboto Slab", sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     color: #252525
@@ -31,4 +31,39 @@ h2 {
 #logo {
     float: left;
     font-size: 350%;
+}
+
+/* Nav Menu */
+#menu {
+    font-size: 150%;
+    font-family: "Roboto Condensed", sans-serif;
+    letter-spacing: 2px;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: peru
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    margin-bottom: 1em;
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid peru
+}
+
+.active {
+    border-bottom: 1px solid peru;
 }
