@@ -13,7 +13,7 @@ body {
     background-color: rgb(243, 217, 182);
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: #3a3a3a
+    color: rgb(126, 67, 7)
 }
 
 /* Headings and logo */
@@ -143,7 +143,6 @@ h3 {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: silver;
 }
 
 #center-reasons {
@@ -164,4 +163,20 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+}
+
+.right-reasons-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-reasons-heading h2 {
+    text-align: right;
+}
+
+.right-reasons-heading p {
+    text-align: right;
 }
