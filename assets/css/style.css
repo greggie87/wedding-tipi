@@ -9,11 +9,19 @@
     box-sizing: border-box;
 }
 
+/* Body styling */
+
 body {
     background-color: rgb(243, 217, 182);
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: rgb(126, 67, 7)
+}
+
+#section-heading {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 200%;
 }
 
 /* Headings and logo */
@@ -130,7 +138,7 @@ h3 {
 /* Reasons section */
 
 #reasons {
-    height: 600px;
+    height: 500px;
 }
 
 #left-reasons {
@@ -178,12 +186,6 @@ hr {
 
 .right-reasons-heading p {
     text-align: right;
-}
-
-#reasons-heading {
-    text-align: center;
-    margin: 30px 0;
-    font-size: 220%;
 }
 
 #circle-container {
