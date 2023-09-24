@@ -133,22 +133,35 @@ h3 {
     height: 600px;
 }
 
-#left-about {
+#left-reasons {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
 }
 
-#right-about {
+#right-reasons {
     padding-top: 30px;
     width: 33%;
     float: right;
     background-color: silver;
 }
 
-#center-about {
+#center-reasons {
     width: 33%;
     margin: 0 auto;
     background-color: green;
+}
+
+hr {
+    border-top: 1px solid peru;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-reasons-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
