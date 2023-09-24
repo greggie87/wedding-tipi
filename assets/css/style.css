@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 
-/* Body styling */
+/* General styling */
 
 body {
     background-color: rgb(243, 217, 182);
@@ -43,6 +43,7 @@ h3 {
     float: left;
     font-size: 350%;
     margin-left: 20px;
+    margin-top: 10px;
 }
 
 /* Nav Menu */
@@ -53,7 +54,7 @@ h3 {
     list-style-type: none;
     text-transform: uppercase;
     font-weight: 600;
-    color: peru
+    color: peru;
 }
 
 #menu,
@@ -115,7 +116,7 @@ h3 {
 /* Cover text over hero image */
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
-    background-color: rgba(155, 94, 4, 0.7);
+    background-color: rgba(155, 94, 4, 0.8);
     position: absolute;
     bottom: 30px;
     right: 150px;
@@ -129,7 +130,7 @@ h3 {
 
 #cover-text>h2 {
     font-family: "La Belle Aurore", serif;
-    color: #ffffff;
+    color: rgb(243, 217, 182);
     text-transform: none;
     font-size: 210%;
     text-align: left;
@@ -213,4 +214,26 @@ hr {
     background-position: center;
     width: 100%;
     overflow: hidden;
+}
+
+#open-days div {
+    color: rgb(243, 217, 182);
+    background-color: rgba(63, 38, 1, 0.6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid rgb(243, 217, 182);
+    box-sizing: border-box;
+}
+
+#open-days h2 {
+    color: rgb(243,217, 182);
+    font-size: 160%;
+}
+
+#open-days h3 {
+    color: rgb(243, 217, 182);
+    font-size: 100%;
 }
