@@ -20,19 +20,21 @@ body {
 
 h1 {
     font-family: "Lobster", serif;
-    color:peru
+    color: peru
 }
 
-h2,h3 {
-    font-family: "Roboto Slab", sans-serif;
+h2,
+h3 {
+    font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    color: #252525
+    color: peru
 }
 
 #logo {
     float: left;
     font-size: 350%;
+    margin-left: 20px;
 }
 
 /* Nav Menu */
@@ -46,7 +48,8 @@ h2,h3 {
     color: peru
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -92,10 +95,11 @@ h2,h3 {
 
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
@@ -107,10 +111,10 @@ h2,h3 {
     position: absolute;
     bottom: 30px;
     right: 150px;
-    width: 330px;
-    height: 200px;
-    padding-top: 10px;
-    padding-left: 35px;
+    width: 350px;
+    height: 250px;
+    padding-top: 30px;
+    padding-left: 30px;
     padding-right: 10px;
     padding-bottom: 10px;
 }
@@ -119,6 +123,6 @@ h2,h3 {
     font-family: "La Belle Aurore", serif;
     color: #ffffff;
     text-transform: none;
-    font-size: 205%;
+    font-size: 210%;
     text-align: left;
 }
