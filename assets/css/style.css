@@ -237,3 +237,28 @@ hr {
     color: rgb(243, 217, 182);
     font-size: 100%;
 }
+
+/* Footer */
+
+footer {
+    height: 100px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: peru;
+}
+
+#footer-text {
+    text-align: center;
+}
