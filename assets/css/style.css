@@ -46,7 +46,7 @@ h3 {
     float: left;
     font-size: 350%;
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 40px;
 }
 
 /* Nav Menu */
@@ -62,7 +62,7 @@ h3 {
 
 #menu,
 #logo {
-    line-height: 75px;
+    line-height: 25px;
 }
 
 #menu li {
@@ -251,11 +251,87 @@ hr {
 /* Footer */
 
 footer {
-    height: 100px;
+    height: 210px;
+    margin-top: 80px;
+    background-color: peru;
+    display: flex;
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+/* Footer left */
+.footer-left {
+    text-align: left;
+}
+
+.footer-left i {
+    background-color: rgb(243, 217, 182);
+    color: peru;
+    font-size: 120%;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-left p,a {
+    display: inline-block;
+    font-size: 110%;
+    vertical-align: middle;
+    color: rgb(243, 217, 182);
+    text-decoration: none;
+}
+/* Footer center */
+.footer-center {
+    text-align: center;
+}
+
+footer h1 {
+    color: rgb(243, 217, 182);
+    margin-top: 20px;
+}
+
+#footer-name {
+    text-align: center;
+    color: rgb(243, 217, 182);
+    font-size: 110%;
+    margin-top: 90px;
+}
+
+/* Footer right */
+.footer-right {
+    text-align: right;
+}
+
+.footer-hours h4 {
+    display: block;
+    color: rgb(243, 217, 182);
+    font-size: 140%;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    font-weight: normal;
+}
+
+.footer-hours p {
+    line-height: 2;
+    color: rgb(243, 217, 182);
+    font-size: 100%;
+    margin-right: 20px;
 }
 
 .social-networks {
-    text-align: center;
+    text-align: right;
 }
 
 .social-networks>li {
@@ -263,12 +339,8 @@ footer {
 }
 
 .social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: peru;
-}
-
-#footer-text {
-    text-align: center;
+    font-size: 350%;
+    padding-top: 40px;
+    color: rgb(243, 217, 182);
+    letter-spacing: 20px;
 }
