@@ -300,6 +300,7 @@ footer {
 footer h1 {
     color: rgb(243, 217, 182);
     margin-top: 20px;
+    font-size: 260%;
 }
 
 #footer-name {
