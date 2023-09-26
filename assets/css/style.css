@@ -204,7 +204,7 @@ hr {
     border-color: #ccc;
     border-width: 1px;
     border-radius: 50%;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 #circle-cover-bg {
@@ -257,7 +257,6 @@ hr {
 /* Footer */
 
 footer {
-    height: 210px;
     margin-top: 80px;
     background-color: peru;
     display: flex;
@@ -291,13 +290,15 @@ footer {
     vertical-align: middle;
 }
 
-.footer-left p,a {
+.footer-left p,
+a {
     display: inline-block;
     font-size: 110%;
     vertical-align: middle;
     color: rgb(243, 217, 182);
     text-decoration: none;
 }
+
 /* Footer center */
 .footer-center {
     text-align: center;
@@ -307,13 +308,7 @@ footer h1 {
     color: rgb(243, 217, 182);
     margin-top: 20px;
     font-size: 260%;
-}
 
-#footer-name {
-    text-align: center;
-    color: rgb(243, 217, 182);
-    font-size: 110%;
-    margin-top: 90px;
 }
 
 /* Footer right */
@@ -347,20 +342,117 @@ footer h1 {
 }
 
 .social-networks i {
-    font-size: 350%;
+    font-size: 300%;
     padding-top: 30px;
     color: rgb(243, 217, 182);
     letter-spacing: 20px;
+}
+
+#footer-name {
+    color: rgb(243, 217, 182);
+    font-size: 110%;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
 /* Gallery */
 
 #photos {
     clear: both;
-    column-count: 4;
+    column-count: 3;
     column-gap: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 #photos>img {
     width: 100%;
+}
+
+/* Media queries for smaller screen sizes */
+
+/* Media queries for screens 1200px and down */
+@media screen and (max-width: 1200px) {
+    #reasons {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #section-heading {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-reasons,
+    #right-reasons {
+        width: 100%;
+        float: left;
+        padding: 0px;
+    }
+
+    #center-reasons {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-top: 50px;
+        line-height: 25px;
+    }
+
+    .footer-center>h1 {
+        display: none;
+    }
+}
+
+/* Media queries for screens 950px and down */
+@media screen and (max-width: 950px) {
+
+    #cover-text {
+        left: 0;
+    }
+
+    #reasons {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-reasons-heading,
+    .right-reasons-heading {
+        width: inherit;
+    }
+
+    .left-reasons-heading h2,
+    .right-reasons-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-reasons-heading p,
+    .right-reasons-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .footer-left,
+    .footer-center {
+        display: none;
+    }
+
+    .footer-right {
+        text-align: center;
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .social-networks {
+        text-align: center;
+    }
 }
