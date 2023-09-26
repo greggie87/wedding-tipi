@@ -85,6 +85,12 @@ h3 {
     border-bottom: 2px solid peru;
 }
 
+/* Main content*/
+
+main {
+    margin-top: 20px;
+}
+
 /* Hero image */
 
 #hero-outer {
@@ -99,7 +105,7 @@ h3 {
     width: 100%;
     background: url("../images/hero-image.jpg") no-repeat center center;
 
-    /* animates zoom effect on loading page */
+    /* animates zoom effect on page load */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -345,4 +351,16 @@ footer h1 {
     padding-top: 30px;
     color: rgb(243, 217, 182);
     letter-spacing: 20px;
+}
+
+/* Gallery */
+
+#photos {
+    clear: both;
+    column-count: 4;
+    column-gap: 3px;
+}
+
+#photos>img {
+    width: 100%;
 }
