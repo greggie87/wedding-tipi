@@ -92,7 +92,7 @@ Gallery Page
 ![Gallery Page Lighthouse](https://greggie87.github.io/wedding-tipi/assets/images/readme/lighthouse-score-gallery-mobile.jpg)
 
 Contact Page
-![Contact Page Lighthouse](https://greggie87.github.io/wedding-tipi/assets/images/readme/lighthouse-score-index-mobile.jpg)
+![Contact Page Lighthouse](https://greggie87.github.io/wedding-tipi/assets/images/readme/lighthouse-score-contact-mobile.jpg)
 
 ### Validator Testing
 
