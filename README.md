@@ -76,3 +76,31 @@ The site is targeted at brides and grooms to be who are planning an outdoor trad
 ### Features Left to Implement
 
 - Add a page showing footprints and plans of tipi layouts tho that the user can understand how many tipis they may require in relation to their guest numbers.
+
+## Testing
+
+- The site has been tested on multiple browsers and devices. Tweaks had to be made to mobile sized screens on the index page but all reacts well now.
+
+- Every page and element of the site has been tested for reactiveness to different screen sizes. There is no overlapping of objects and everything is functional at all levels.
+
+- Lighthouse results for each page on mobile devices were made. Results in general are good. Performance could be improved by streamlining images accross the site.
+
+Index page
+![Index Page Lighthouse](https://greggie87.github.io/wedding-tipi/assets/images/readme/lighthouse-score-index-mobile.jpg)
+
+Gallery Page
+![Gallery Page Lighthouse](https://greggie87.github.io/wedding-tipi/assets/images/readme/lighthouse-score-gallery-mobile.jpg)
+
+Contact Page
+![Contact Page Lighthouse](https://greggie87.github.io/wedding-tipi/assets/images/readme/lighthouse-score-index-mobile.jpg)
+
+### Validator Testing
+
+- HTML
+  - No errors were returned when passing through the official W3C validator
+![W3C Validator](https://greggie87.github.io/wedding-tipi/assets/images/readme/html-w3-validator.jpg)
+  
+- CSS
+  - No errors were found when passing through the official W3C CSS validator
+![W3C CSS Validator](https://greggie87.github.io/wedding-tipi/assets/images/readme/css-validator.jpg)
+
