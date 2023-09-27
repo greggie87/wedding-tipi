@@ -387,6 +387,177 @@ footer h1 {
     width: 100%;
 }
 
+/* Contact page styling */
+
+#contactUs .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 2em;
+}
+
+#contactUs .title h1 {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: rgb(243, 217, 182);
+    background-color: peru;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form {
+    grid-area: form;
+}
+
+.info {
+    grid-area: info;
+}
+
+.map {
+    grid-area: map;
+}
+
+.contact {
+    padding: 40px;
+    background: rgb(255, 255, 255, 0.8);
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.15);
+}
+
+.contactus-box {
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 5fr 4fr;
+    grid-template-areas:
+        "form info"
+        "form map";
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+.contact h2 {
+    color: peru;
+    font-weight: 500;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.formbox {
+    position: relative;
+    width: 100%;
+}
+
+.formbox .row50 {
+    display: flex;
+    gap: 20px;
+}
+
+.inputbox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.formbox .row100 .inputbox {
+    width: 100%
+}
+
+.inputbox input {
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid peru;
+    font-family: Lato;
+}
+
+.inputbox textarea {
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid peru;
+    resize: none;
+    min-height: 220px;
+    margin-bottom: 10px;
+    font-family: 'lato', sans-serif;
+}
+
+.inputbox input[type="submit"] {
+    background: peru;
+    color: rgb(243, 217, 182);
+    border: none;
+    font-size: 1.5em;
+    max-width: 120px;
+    cursor: pointer;
+    padding: 14px 15px;
+}
+
+.inputbox input:hover[type="submit"] {
+    background-color: rgb(243, 217, 182);
+    color: peru;
+}
+
+
+/* text config for messaging form */
+.inputbox label {
+    color: peru;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Info Box - company contact details */
+.info {
+    background: rgb(255, 255, 255, 0.8);
+}
+
+.info .infobox div {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.info .infobox div span {
+    min-width: 40px;
+    height: 40px;
+    color: #fff;
+    background-color: peru;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+/* text config for business contact details box */
+.info h3 {
+    font-size: 200%;
+    padding-bottom: 50px;
+    color: peru;
+}
+
+.info .infobox div p {
+    color: peru;
+    font-size: 1.1em;
+}
+
+.info .infobox div a {
+    color: peru;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.map {
+    padding: 0;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+}
+
 /* Media queries for smaller screen sizes */
 
 /* Media queries for screens 1200px and down */
@@ -551,5 +722,10 @@ footer h1 {
         margin-left: 5px;
         margin-top: 15px;
         line-height: 40px;
+    }
+
+    #video-section {
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }
