@@ -763,6 +763,10 @@ footer h1 {
         line-height: 40px;
     }
 
+    #cover-text>h2 {
+        font-size: 190%;
+    }
+
     #video-section {
         padding-left: 5%;
         padding-right: 5%;
