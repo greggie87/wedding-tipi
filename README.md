@@ -104,3 +104,27 @@ Contact Page
   - No errors were found when passing through the official W3C CSS validator
 ![W3C CSS Validator](https://greggie87.github.io/wedding-tipi/assets/images/readme/css-validator.jpg)
 
+
+### Unfixed Bugs
+
+- There are no known bugs in the site's current build.
+
+## Deployment
+
+- The site was deployed to GitHub pages once enough of the repository was built. Code was built using Codeanywhere IDE.
+
+## Credits
+
+- A few elements were modified from the Code Institute 'Love Running' project. Specifically the hero image section, reasons section and open-day section. These have been tweaked in order to work for this site, both aesthetically and functionally as the basic framework was ideal for the Wedding Tipi Company site with the syntax fresh in mind.
+- 'W3Schools' for basic code to help me with the contact form.
+- 'embedresponsively.com' for the youtube embed.
+
+### Media
+
+- The photos used on the home and gallery page are credit to 'The Tipi Co.' and 'Sussex and Surrey Tipi Hire'.
+- The video is credit of youtube and 'Sami Tipi'.
+
+
+Thank you for reading.
+
+[-> Link to live site here <-](https://greggie87.github.io/wedding-tipi/)
