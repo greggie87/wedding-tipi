@@ -466,6 +466,11 @@ footer h1 {
         padding: 0 20px;
     }
 
+    #video-section {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
     #open-days>div {
         width: 100%;
         clear: both;
