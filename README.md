@@ -20,6 +20,6 @@ The site is targeted at brides and grooms to be who are planning an outdoor trad
   - The menu is fully responsive for all screen sizes. At mobile screen level, it condenses down to a toggle button to allow for more screen estate.
   - Each page is listed on the navigation menu and the currently active page is underlined to allow the user to navigate intuitively.
   
-![Navigation Menu Bar](https://greggie87.github.io/wedding-tipi/assets/images/readme/menu-nav-bar-mobile.jpg)
+![Navigation Menu Bar](https://greggie87.github.io/wedding-tipi/assets/images/readme/menu-nav-bar.jpg)
 
-![Nav Bar on smaller screen sizes](https://greggie87.github.io/wedding-tipi/assets/images/readme/menu-nav-bar.jpg)
+![Nav Bar on smaller screen sizes](https://greggie87.github.io/wedding-tipi/assets/images/readme/menu-nav-bar-mobile.jpg)
