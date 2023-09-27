@@ -541,15 +541,15 @@ footer h1 {
         float: left;
         font-size: 250%;
     }
+}
 
-    /* Media queries for smallest screens 650px and down */
-    @media screen and (max-width: 650px) {
-
-        #logo {
-            float: left;
-            font-size: 190%;
-            margin-left: 5px;
-            margin-top: 15px;
-            line-height: 40px;
-        }
+/* Media queries for smallest screens 650px and down */
+@media screen and (max-width: 650px) {
+    #logo {
+        float: left;
+        font-size: 190%;
+        margin-left: 5px;
+        margin-top: 15px;
+        line-height: 40px;
     }
+}
