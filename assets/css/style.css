@@ -37,7 +37,7 @@ h3 {
 #section-heading-two,
 #section-heading-three {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 5px;
     font-size: 200%;
 }
@@ -474,5 +474,9 @@ footer h1 {
 
     .social-networks {
         text-align: center;
+    }
+
+    #photos {
+        column-count: 2;
     }
 }
