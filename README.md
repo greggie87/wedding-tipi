@@ -21,5 +21,58 @@ The site is targeted at brides and grooms to be who are planning an outdoor trad
   - Each page is listed on the navigation menu and the currently active page is underlined to allow the user to navigate intuitively.
   
 ![Navigation Menu Bar](https://greggie87.github.io/wedding-tipi/assets/images/readme/menu-nav-bar.jpg)
-
 ![Nav Bar on smaller screen sizes](https://greggie87.github.io/wedding-tipi/assets/images/readme/menu-nav-bar-mobile.jpg)
+
+- __Large Hero Image for Landing Page__
+
+  - A large hero image is the first thing you see. It is attention grabbing with bright warm lights contrasting colourful bunting.
+  - There is a small box with cover text to welcome the user in to the site. It also notifies users that the company is based in Surrey.
+
+![Landing Page](https://greggie87.github.io/wedding-tipi/assets/images/readme/landing-hero-image.jpg)
+
+- __Reasons Section__
+
+  - The reasons section allows the user to see reasons why Wedding Tipi Company are the supplier of choice.
+  - The site visitor will know more about the company values from this section.
+
+![Reasons Section](https://greggie87.github.io/wedding-tipi/assets/images/readme/reasons-screenshot.jpg)
+
+- __Video Section__
+
+  - The video section allows the user a little bit of interaction via a short youtube embed.
+  - The video gives the user a good idea of what a dressed up tipi may look like.
+
+![Video](https://greggie87.github.io/wedding-tipi/assets/images/readme/video-section.jpg)
+
+- __Open Day and Venue Section__
+
+  - This section will allow the user to see the dates of future open days, as well as get an idea of associated venues.
+  - The section is easily edited to update for future open days.
+
+![Open Days](https://greggie87.github.io/wedding-tipi/assets/images/readme/open-day-section.jpg)
+
+- __The Footer__
+
+  - The footer section includes contact information and opening times. More importantly there are prominent links to the relevant social media sites for Wedding Tipi Company. The links will open to a new tab to allow easy navigation for the user.
+  - Social links are great for keeping clients up to date and involved with the company.
+
+![Footer](https://greggie87.github.io/wedding-tipi/assets/images/readme/footer-section.jpg)
+![Footer](https://greggie87.github.io/wedding-tipi/assets/images/readme/footer-mobile.jpg)
+
+- __Gallery__
+
+  - The gallery will help the user to gain an idea of what Wedding Tipi Company's finished products look like.
+  - The potential client may also use these images in order to get some inspiration for their wedding.
+
+![Gallery](https://greggie87.github.io/wedding-tipi/assets/images/readme/gallery-page.jpg)
+
+- __Contact Page__
+
+  - This page contains all contact details as well as a google map to allow the user to know geographic location of the company.
+  - The contact form makes an easy direct first point of contact from the website.
+
+![Contact Page](https://greggie87.github.io/wedding-tipi/assets/images/readme/contact-page.jpg)
+
+### Features Left to Implement
+
+- Add a page showing footprints and plans of tipi layouts tho that the user can understand how many tipis they may require in relation to their guest numbers.
