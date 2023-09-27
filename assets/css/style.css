@@ -454,6 +454,13 @@ footer h1 {
         padding: 0 20px;
     }
 
+    #open-days>div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
     .footer-left,
     .footer-center {
         display: none;
