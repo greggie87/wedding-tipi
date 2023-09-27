@@ -15,7 +15,7 @@ body {
     background-color: rgb(243, 217, 182);
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: rgb(126, 67, 7)
+    color: rgb(126, 67, 7);
 }
 
 /* Headings and logo */
@@ -47,6 +47,7 @@ h3 {
     font-size: 350%;
     margin-left: 20px;
     margin-top: 40px;
+    line-height: 75px;
 }
 
 /* Nav Menu */
@@ -58,11 +59,6 @@ h3 {
     text-transform: uppercase;
     font-weight: 600;
     color: peru;
-}
-
-#menu,
-#logo {
-    line-height: 25px;
 }
 
 #menu li {
@@ -146,10 +142,6 @@ main {
 
 /* Reasons section */
 
-#reasons {
-    height: 450px;
-}
-
 #left-reasons {
     padding-top: 30px;
     width: 33%;
@@ -198,8 +190,8 @@ hr {
 }
 
 #circle-container {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     border-style: solid;
     border-color: #ccc;
     border-width: 1px;
@@ -215,10 +207,28 @@ hr {
 
 /* Video Section */
 
-#video {
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 20px;
+#video-section {
+    clear: both;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* Open days information section */
@@ -375,7 +385,6 @@ footer h1 {
 @media screen and (max-width: 1200px) {
     #reasons {
         width: 65%;
-        height: 1200px;
         margin: 0 auto;
     }
 
@@ -406,6 +415,11 @@ footer h1 {
         line-height: 25px;
     }
 
+    #video-section {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
     .footer-center>h1 {
         display: none;
     }
@@ -420,7 +434,6 @@ footer h1 {
 
     #reasons {
         width: 90%;
-        height: 1200px;
         margin: 0 auto;
     }
 
