@@ -61,6 +61,14 @@ h3 {
     color: peru;
 }
 
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    display: none;
+}
+
 #menu li {
     margin-bottom: 1em;
     float: right;
@@ -428,6 +436,10 @@ footer h1 {
 /* Media queries for screens 950px and down */
 @media screen and (max-width: 950px) {
 
+    #hero-outer {
+        padding-top: 130px;
+    }
+
     #cover-text {
         left: 0;
     }
@@ -478,5 +490,45 @@ footer h1 {
 
     #photos {
         column-count: 2;
+        padding-top: 150px;
+    }
+
+    /* Navbar styles with dropdown toggle for mobile devices */
+    header {
+        background-color: rgb(243, 217, 182);
+        padding: 0 1rem;
+        position: fixed;
+        top: 0;
+        z-index: 99;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+
+    }
+
+    nav {
+        position: absolute;
+        background-color: rgb(243, 217, 182);
+        width: 100%;
+        left: 0;
+        padding: 0 1rem;
+        display: none;
+        top: 100%;
+        border-bottom: 2px solid peru;
+    }
+
+    #nav-toggle:checked~nav {
+        display: block;
+    }
+
+    #nav-toggle {
+        display: none;
+    }
+
+    .nav-toggle-label {
+        font-size: 3rem;
+        display: block;
+        color: peru;
     }
 }
