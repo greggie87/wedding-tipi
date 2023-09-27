@@ -107,7 +107,7 @@ main {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url("../images/hero-image.jpg") no-repeat center center;
+    background: url("../images/hero-image.webp") no-repeat center center;
 
     /* animates zoom effect on page load */
     animation-name: hero-zoom;
@@ -208,7 +208,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url(../images/tipi-couple.jpg) no-repeat center center;
+    background: url(../images/tipi-couple.webp) no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
@@ -242,7 +242,7 @@ hr {
 /* Open days information section */
 
 #open-days {
-    background-image: url('../images/tipi-background.jpg');
+    background-image: url('../images/tipi-background.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
